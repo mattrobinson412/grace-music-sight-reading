@@ -1,0 +1,4 @@
+gm-frontend/node_modules/
+gm-frontend/public/
+gm-frontend/package-lock.json
+gm-backend/node_modules/
