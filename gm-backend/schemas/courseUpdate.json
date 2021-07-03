@@ -1,0 +1,40 @@
+{
+    "$id": "http://example.com/example.json",
+    "$schema": "http://json-schema.org/courseUpdate/schema",
+    "default": {},
+    "description": "The root schema comprises the entire JSON document.",
+    "examples": [
+        {
+            "name": "Sight Reading 201",
+            "level": 5
+        }
+    ],
+    "required": [
+        "name"
+    ],
+    "title": "The courseUpdate schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "title": "The name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Sight Reading 201"
+            ]
+        },
+        "level": {
+            "$id": "#/properties/level",
+            "type": "integer",
+            "title": "The level schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                5
+            ]
+        }
+    },
+    "additionalProperties": true
+}
